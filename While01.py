@@ -5,5 +5,12 @@ def main(s):
         s: str
     Returns:
         int: return answer
-    """
-    return
+    """  
+    i=0
+    x=0
+    while i<len(s):
+        if s[i].isdigit():
+            x+=1
+        i+=1
+    return x
+print(main('32f53f3'))    
