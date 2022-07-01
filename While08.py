@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a=0
+    x=0
+    while a<len(s):
+        if s[a].isdigit() and s[a]!='2' and s[a]!='4' and s[a]!='6' and s[a]!='8':
+            x+=1
+        a+=1    
+    return x
+print(main('123456548')) 
