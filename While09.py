@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = 1
+    while a<len(s):
+        s[0]+=s[a]
+        a+=1
+    return s[0]
+print(main([9,8,7,6,5,4]))    
