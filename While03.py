@@ -9,8 +9,8 @@ def main(s):
     a = 0
     x = 0
     while a<len(s):
-        if s[a]:
+        if s[a]<='!'and s[a]>='&':
             x+=1
         a+=1    
     return x
-print(main('32ljg#@d*&sd+'))    
+print(main('!32ljg#@d*&sd+'))    
